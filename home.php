@@ -44,7 +44,7 @@ include './header.php';
   <?php } ?>
   <div class="margin20"></div>
   <div class="col-sm-3">
-    <a class="btn btn-block btn-social btn-google-plus" href="<?php echo LOGOUT_URL; ?>">
+    <a class="btn btn-block btn-social btn-google-plus" href="logout.php">
       <i class="fa fa-google-plus"></i> Logout
     </a>
   </div>

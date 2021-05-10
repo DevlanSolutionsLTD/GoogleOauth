@@ -24,7 +24,7 @@ error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 ob_start();
 session_start();
 
-define('PROJECT_NAME', 'Login System with Google using OAuth PHP and MySQL - www.PHPHive.info');
+define('PROJECT_NAME', 'GoogleOAuth');
 
 define('DB_DRIVER', 'mysql');
 define('DB_SERVER', 'localhost');
@@ -46,13 +46,13 @@ try {
 }
 
 /* make sure the url end with a trailing slash */
-define("SITE_URL", "http://demo.phphive.info/login_system_with_google/");
+define("SITE_URL", "http://127.0.0.1/Oauth/");
 /* the page where you will be redirected for authorzation */
 define("REDIRECT_URL", SITE_URL . "login.php");
 
 /* * ***** Google related activities start ** */
-define("CLIENT_ID", "Your App CLIENT_ID Here");
-define("CLIENT_SECRET", "Your App CLIENT_SECRET Here");
+define("CLIENT_ID", "358941079342-mnudavtr8akmvn2ppqr57nngmecscclu.apps.googleusercontent.com");
+define("CLIENT_SECRET", "Q9Hv2DDRrfbi59eHxu8iKG3o");
 
 /* permission */
 define("SCOPE", 'https://www.googleapis.com/auth/userinfo.email ' .
@@ -60,6 +60,4 @@ define("SCOPE", 'https://www.googleapis.com/auth/userinfo.email ' .
 
 
 
-/* logout both from google and your site **/
-define("LOGOUT_URL", "https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=" . urlencode(SITE_URL . "logout.php"));
 /* * ***** Google related activities end ** */

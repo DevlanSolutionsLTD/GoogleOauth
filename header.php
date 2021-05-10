@@ -28,7 +28,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="http://www.phphive.info/wp-content/uploads/2014/10/favicon.ico" type="image/x-icon" />
   <meta name="author" content="Puneet Mehta">
   <meta name="description" content="<?php echo PROJECT_NAME; ?>">
   <meta name="title" content="<?php echo PROJECT_NAME; ?>">
@@ -63,16 +62,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="http://www.phphive.info" target="_blank"><span class="glyphicon glyphicon-home"></span> PHPHive</a>
-      </div>
-      <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="http://www.phphive.info/category/php-for-beginners/">PHP for Beginners</a></li>
-          <li><a href="http://www.phphive.info/category/snippets/">Snippets</a></li>
-          <li><a href="http://www.phphive.info/about/">About</a></li>
-          <li><a href="http://www.phphive.info/contact/">Contact Us</a></li>
-          <li><a href="http://www.phphive.info/request-tutorial/">Request Tutorial</a></li>
-        </ul>
+        <a class="navbar-brand" href="http://www.phphive.info" target="_blank"><span class="glyphicon glyphicon-home"></span> GoogleOAuth</a>
       </div>
     </div>
   </div>
